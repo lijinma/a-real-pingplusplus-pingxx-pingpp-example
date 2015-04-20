@@ -8,6 +8,9 @@
 
 require_once(dirname(__FILE__) . '/../vendor/autoload.php');
 
+//你需要设置的
+$apiKey = 'YOUR_API_KEY';
+$appId = 'YOUR_APP_ID';
 
 $input_data = json_decode(file_get_contents('php://input'), true);
 if (empty($input_data['channel']) || empty($input_data['amount'])) {
@@ -53,9 +56,6 @@ switch ($channel) {
         break;
 }
 
-//你需要设置的
-$apiKey = 'sk_test_C8mfr51GqzP41mrHO4CW1u98';
-$appId = 'app_a1yT4SL4GGWPnrHG';
 
 \Pingpp\Pingpp::setApiKey($apiKey);
 try {
