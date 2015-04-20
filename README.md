@@ -1,7 +1,7 @@
 # 一个不费脑筋的 PingPlusPlus (pingxx) 前后端实例
 
 # 简介
-使用一个 SDK，最重要的是能先跑起来，然后再研究，这个实例就可以让你轻松测试前端 HTML5 和后端 PHP 的 PingPlusPlus SDK。
+使用一个 SDK，最重要的是能先跑起来，然后再研究细节，这个实例就可以让你轻松测试前端 HTML5 和后端 PHP 的 PingPlusPlus SDK。
 
 ## 版本要求
 PHP 版本 5.3 及以上
@@ -16,7 +16,7 @@ PHP 版本 5.3 及以上
 composer update
 ```
 
-### 添加App key 和 App ID
+### 添加 App key 和 App ID
 
 修改文件：`server/pay.php`
 
@@ -27,9 +27,9 @@ $appId = 'YOUR_APP_ID';
 ```
 
 
-1. 登录 [https://dashboard.pingxx.com/](https://dashboard.pingxx.com/)获取 `Test Key` 或者 `Live Key`;
+1. 登录 [https://dashboard.pingxx.com/](https://dashboard.pingxx.com/) 获取 `Test Key` 或者 `Live Key`;
 
-2. 登录后，选中应用，查看应用信息，获取应用 ID(App Id)。
+2. 登录后，选中应用，查看应用信息，获取应用 ID (App Id)。
 
 ### 启动 Server
 
@@ -37,7 +37,9 @@ $appId = 'YOUR_APP_ID';
 
 也可以直接使用 PHP 内置 web server 来启动实例。
 
-`$ php -S 127.0.0.1:8989`
+```
+$ php -S 127.0.0.1:8989
+```
 
 ### 测试支付
 
