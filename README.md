@@ -1,7 +1,12 @@
 # 一个不费脑筋的 PingPlusPlus (pingxx) 前后端实例
 
 # 简介
-使用一个 SDK，最重要的是能先跑起来，然后再研究细节，这个实例就可以让你轻松测试前端 HTML5 和后端 PHP 的 PingPlusPlus SDK。
+
+PingPlusPlus 的文档写的真心很棒，但是 SDK 的例子却乱七八糟，把用户体验降低了一个档次。
+
+我觉得，使用一个 SDK，最重要的是能先跑起来，然后再研究细节，这个实例就可以让你轻松测试前端 HTML5 和后端 PHP 的 PingPlusPlus SDK。
+
+本实例参考[pinggg-php](https://github.com/PingPlusPlus/pingpp-php)[pingpp-html5](https://github.com/PingPlusPlus/pingpp-html5/)
 
 ## 版本要求
 PHP 版本 5.3 及以上
