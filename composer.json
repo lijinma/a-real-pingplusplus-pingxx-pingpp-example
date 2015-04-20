@@ -1,0 +1,5 @@
+{
+  "require": {
+    "pingplusplus/pingpp-php": "~2.0"
+  }
+}
