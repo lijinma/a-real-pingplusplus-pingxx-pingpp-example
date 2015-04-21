@@ -25,23 +25,23 @@ $extra = array();
 switch ($channel) {
     case 'alipay_wap':
         $extra = array(
-            'success_url' => 'http://www.yourdomain.com/success',
+            'success_url' => "http://$_SERVER[HTTP_HOST]/pay_callback.php",
             'cancel_url' => 'http://www.yourdomain.com/cancel'
         );
         break;
     case 'upmp_wap':
         $extra = array(
-            'result_url' => "http://$_SERVER[HTTP_HOST]/pay_success.php?code="
+            'result_url' => "http://$_SERVER[HTTP_HOST]/pay_callback.php?code="
         );
         break;
     case 'bfb_wap':
         $extra = array(
-            'result_url' => 'http://www.yourdomain.com/result?code='
+            'result_url' => "http://$_SERVER[HTTP_HOST]/pay_callback.php?code="
         );
         break;
     case 'upacp_wap':
         $extra = array(
-            'result_url' => 'http://www.yourdomain.com/result?code='
+            'result_url' => "http://$_SERVER[HTTP_HOST]/pay_callback.php?code="
         );
         break;
     case 'wx_pub':
